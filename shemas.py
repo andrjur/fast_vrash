@@ -1,17 +1,17 @@
 from typing import Optional
-
-from pydantic import BaseModel, ConfigDict
+from pydantic import BaseModel, Field
 
 
 class STaskAdd(BaseModel):
-    name: str
-    description: Optional[str] = None
+    name: str = Field(..., description="Название задачи")
+    description: Optional[str] = Field(None, description="Описание задачи")
 
 
 class STask(STaskAdd):
     id: int
 
-    model_config = ConfigDict(from_attributes=True)
+    class Config:
+        from_attributes = True
 
 
 class STaskId(BaseModel):

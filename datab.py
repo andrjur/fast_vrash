@@ -22,15 +22,16 @@ class TaskOrm(Model):
 
 
 async def create_tables():
-   async with engine.begin() as conn:
-       await conn.run_sync(Model.metadata.create_all)
+    async with engine.begin() as conn:
+        await conn.run_sync(Model.metadata.create_all)
+
 
 async def delete_tables():
-   async with engine.begin() as conn:
-       await conn.run_sync(Model.metadata.drop_all)
+    async with engine.begin() as conn:
+        await conn.run_sync(Model.metadata.drop_all)
+
 
 async def get_tasks():
-
     async with new_session() as session:
         query = select(TaskOrm)
         result = await session.execute(query)
