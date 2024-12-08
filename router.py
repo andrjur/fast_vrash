@@ -26,9 +26,9 @@ async def add_task(
 
 @router.get("/", response_model=list[STask])
 async def get_tasks(
+    current_user: Annotated[User, Depends(get_current_user)],
     skip: int = 0,
-    limit: int = 10,
-    current_user: Annotated[User, Depends(get_current_user)]
+    limit: int = 10
 ):
     try:
         return await TaskRepository.find_all(skip=skip, limit=limit)
