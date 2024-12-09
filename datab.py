@@ -41,3 +41,9 @@ async def get_tasks():
         result = await session.execute(query)
         task_models = result.scalars().all()
         return task_models
+
+   async def create_user(username: str, password: str):
+       async with new_session() as session:
+           user = UserOrm(username=username, hashed_password=get_password_hash(password))
+           session.add(user)
+           await session.commit()
