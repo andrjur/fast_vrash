@@ -8,7 +8,13 @@ pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 def get_password_hash(password: str) -> str:
     return pwd_context.hash(password)
 
-
+async def create_user(username: str, password: str):
+    from datab import UserOrm
+    async with new_session() as session:
+        hashed_password = get_password_hash(password)
+        user = UserOrm(username=username, hashed_password=hashed_password)
+        session.add(user)
+        await session.commit()
 
 async def get_user(username: str):
     async with new_session() as session:
