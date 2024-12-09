@@ -1,8 +1,7 @@
 from passlib.context import CryptContext
 from sqlalchemy import select
 from database import new_session
-from datab import UserOrm
-from sqlalchemy.ext.asyncio import AsyncSession
+from models import UserOrm
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
@@ -11,13 +10,6 @@ def get_password_hash(password: str) -> str:
 
 def verify_password(plain_password: str, hashed_password: str) -> bool:
     return pwd_context.verify(plain_password, hashed_password)
-
-async def create_user(username: str, password: str):
-    async with new_session() as session:
-        hashed_password = get_password_hash(password)
-        user = UserOrm(username=username, hashed_password=hashed_password)
-        session.add(user)
-        await session.commit()
 
 async def get_user(username: str):
     async with new_session() as session:
