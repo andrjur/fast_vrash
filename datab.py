@@ -5,7 +5,6 @@ from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncSession
 from shemas import TaskStatus
 from config import settings
-from users import UserOrm, get_password_hash
 
 engine = create_async_engine(settings.DATABASE_URL)
 new_session = async_sessionmaker(engine, expire_on_commit=False)
@@ -26,14 +25,6 @@ class TaskOrm(Model):
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
 
 
-class UserOrm(Model):
-    __tablename__ = "users"
-
-    id: Mapped[int] = mapped_column(primary_key=True)
-    username: Mapped[str] = mapped_column(String(50), unique=True)
-    hashed_password: Mapped[str] = mapped_column(String(100))
-
-
 async def create_tables():
     async with engine.begin() as conn:
         await conn.run_sync(Model.metadata.create_all)
@@ -50,10 +41,3 @@ async def get_tasks():
         result = await session.execute(query)
         task_models = result.scalars().all()
         return task_models
-
-
-async def create_user(username: str, password: str):
-    async with new_session() as session:
-        user = UserOrm(username=username, hashed_password=get_password_hash(password))
-        session.add(user)
-        await session.commit()
