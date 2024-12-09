@@ -1,6 +1,6 @@
 from passlib.context import CryptContext
 from sqlalchemy import select
-from datab import new_session
+from database import new_session
 from sqlalchemy.ext.asyncio import AsyncSession
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")

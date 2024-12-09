@@ -2,17 +2,10 @@ from datetime import datetime
 from typing import Optional
 from sqlalchemy import String, DateTime, Enum as SQLAlchemyEnum, select
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
-from sqlalchemy.ext.asyncio import create_async_engine, async_sessionmaker, AsyncSession
+from database import new_session, Model
 from shemas import TaskStatus
 from config import settings
 from users import UserOrm
-
-engine = create_async_engine(settings.DATABASE_URL)
-new_session = async_sessionmaker(engine, expire_on_commit=False)
-
-
-class Model(DeclarativeBase):
-    pass
 
 
 class TaskOrm(Model):
@@ -27,12 +20,12 @@ class TaskOrm(Model):
 
 
 async def create_tables():
-    async with engine.begin() as conn:
+    async with new_session.begin() as conn:
         await conn.run_sync(Model.metadata.create_all)
 
 
 async def delete_tables():
-    async with engine.begin() as conn:
+    async with new_session.begin() as conn:
         await conn.run_sync(Model.metadata.drop_all)
 
 
