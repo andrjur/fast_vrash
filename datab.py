@@ -5,8 +5,13 @@ from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 from database import new_session, Model
 from shemas import TaskStatus
 from config import settings
-from users import UserOrm
+from sqlalchemy.ext.asyncio import AsyncSession
 
+class UserOrm(Model):
+    __tablename__ = "users"
+    id: Mapped[int] = mapped_column(primary_key=True)
+    username: Mapped[str] = mapped_column(String(50), unique=True)
+    hashed_password: Mapped[str] = mapped_column(String(100))
 
 class TaskOrm(Model):
     __tablename__ = "tasks"
@@ -20,13 +25,15 @@ class TaskOrm(Model):
 
 
 async def create_tables():
-    async with new_session.begin() as conn:
-        await conn.run_sync(Model.metadata.create_all)
+    async with new_session() as session:
+        async with session.begin():
+            await session.run_sync(Model.metadata.create_all)
 
 
 async def delete_tables():
-    async with new_session.begin() as conn:
-        await conn.run_sync(Model.metadata.drop_all)
+    async with new_session() as session:
+        async with session.begin():
+            await session.run_sync(Model.metadata.drop_all)
 
 
 async def get_tasks():
