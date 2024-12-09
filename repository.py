@@ -1,6 +1,7 @@
 from sqlalchemy import select
 import logging
-from datab import new_session, TaskOrm
+from database import new_session
+from models import TaskOrm
 from shemas import STaskAdd, STask
 from sqlalchemy.exc import SQLAlchemyError
 
@@ -15,28 +16,18 @@ class RepositoryError(Exception):
 
 class TaskRepository:
     @classmethod
-    async def add_one(cls, data: STaskAdd) -> int:
+    async def add_one(cls, task: STaskAdd) -> int:
         async with new_session() as session:
-            try:
-                task_dict = data.model_dump()
-                task = TaskOrm(**task_dict)
-                session.add(task)
-                await session.commit()
-                logger.info("Added task with id: %s", task.id)
-                return task.id
-            except SQLAlchemyError as e:
-                await session.rollback()
-                logger.error("Error adding task: %s", str(e))
-                raise
+            task_dict = task.model_dump()
+            task = TaskOrm(**task_dict)
+            session.add(task)
+            await session.commit()
+            return task.id
 
     @classmethod
-    async def find_all(cls, skip: int = 0, limit: int = 10) -> list[STask]:
+    async def find_all(cls) -> list[TaskOrm]:
         async with new_session() as session:
-            try:
-                query = select(TaskOrm).offset(skip).limit(limit)
-                result = await session.execute(query)
-                task_models = result.scalars().all()
-                return [STask.model_validate(task) for task in task_models]
-            except SQLAlchemyError as e:
-                logger.error("Database error: %s", str(e))
-                raise
+            query = select(TaskOrm)
+            result = await session.execute(query)
+            task_models = result.scalars().all()
+            return task_models
