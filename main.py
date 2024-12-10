@@ -30,6 +30,10 @@ app = FastAPI(
 
 app.include_router(router)
 
+@app.get("/")
+async def root():
+    return {"message": "Navigate to /docs for API documentation"}
+
 @app.post("/token", response_model=Token)
 async def login_for_access_token(form_data: Annotated[OAuth2PasswordRequestForm, Depends()]):
     user = await authenticate_user(form_data.username, form_data.password)

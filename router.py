@@ -14,8 +14,11 @@ async def add_task(
     task: Annotated[STaskAdd, Depends()],
     current_user: Annotated[User, Depends(get_current_user)]
 ) -> STaskId:
-    task_id = await TaskRepository.add_one(task)
-    return {"ok": True, "task_id": task_id}
+  #  try:  # отладочный трай чтобы не падало всё а в норм ответе возврящало в сваггер текст ошибки - убрать при релизе
+        task_id = await TaskRepository.add_one(task)
+        return {"ok": True, "task_id": task_id}
+ #   except Exception as e:
+  #      raise HTTPException(status_code=400, detail=str(e))
 
 @router.get("/", response_model=list[STask])
 async def get_tasks(
