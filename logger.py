@@ -2,8 +2,9 @@ import logging
 import sys
 from logging.handlers import RotatingFileHandler
 
-def setup_logger():
-    logger = logging.getLogger()
+def setup_logger(name: str = "my_app") -> logging.Logger:
+    # Создаем логгер с заданным именем
+    logger = logging.getLogger(name)
     logger.setLevel(logging.INFO)
 
     # Консольный вывод
@@ -26,7 +27,14 @@ def setup_logger():
     )
     file_handler.setFormatter(file_formatter)
 
-    logger.addHandler(console_handler)
-    logger.addHandler(file_handler)
+    # Добавляем обработчики к логгеру
+    if not logger.hasHandlers():
+        logger.addHandler(console_handler)
+        logger.addHandler(file_handler)
 
-    return logger 
+    return logger
+
+
+# Создаем экземпляр логгера
+logger = setup_logger()
+

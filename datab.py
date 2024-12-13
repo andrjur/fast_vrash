@@ -2,6 +2,8 @@ from database import engine, new_session
 from models import Model, UserOrm
 from users import get_password_hash
 
+
+
 async def create_tables():
     async with engine.begin() as conn:
         await conn.run_sync(Model.metadata.create_all)

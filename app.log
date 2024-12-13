@@ -1,365 +1,74 @@
-2024-12-09 00:14:33,347 - root - INFO - Application startup completed
-2024-12-09 00:16:31,779 - root - INFO - Application shutdown completed
-2024-12-09 00:16:32,923 - root - INFO - Application startup completed
-2024-12-09 00:16:32,960 - root - INFO - Application startup completed
-2024-12-09 00:16:33,308 - root - INFO - Application startup completed
-2024-12-09 00:16:33,377 - root - INFO - Application startup completed
-2024-12-09 00:16:43,118 - root - INFO - Application shutdown completed
-2024-12-09 00:16:43,133 - root - INFO - Application shutdown completed
-2024-12-09 00:16:43,148 - root - INFO - Application shutdown completed
-2024-12-09 00:16:43,286 - root - INFO - Application shutdown completed
-2024-12-09 00:16:44,920 - root - INFO - Application startup completed
-2024-12-09 00:16:44,944 - root - INFO - Application startup completed
-2024-12-09 00:16:44,947 - root - INFO - Application startup completed
-2024-12-09 00:16:47,088 - root - INFO - Application shutdown completed
-2024-12-09 00:16:47,120 - root - INFO - Application shutdown completed
-2024-12-09 00:16:47,120 - root - INFO - Application shutdown completed
-2024-12-09 00:16:48,402 - root - INFO - Application startup completed
-2024-12-09 00:16:48,806 - root - INFO - Application startup completed
-2024-12-09 00:16:48,894 - root - INFO - Application startup completed
-2024-12-09 00:16:48,993 - root - INFO - Application startup completed
-2024-12-09 00:16:49,059 - root - INFO - Application shutdown completed
-2024-12-09 00:16:50,577 - root - INFO - Application startup completed
-2024-12-09 00:16:50,701 - root - INFO - Application startup completed
-2024-12-09 00:16:50,748 - root - INFO - Application startup completed
-2024-12-09 00:17:11,705 - root - INFO - Application startup completed
-2024-12-09 00:19:31,956 - root - INFO - Application shutdown completed
-2024-12-09 00:19:31,988 - root - INFO - Application shutdown completed
-2024-12-09 00:19:32,017 - root - INFO - Application shutdown completed
-2024-12-09 00:19:32,049 - root - INFO - Application shutdown completed
-2024-12-09 00:19:33,329 - root - INFO - Application startup completed
-2024-12-09 00:19:33,688 - root - INFO - Application startup completed
-2024-12-09 00:19:33,788 - root - INFO - Application startup completed
-2024-12-09 00:19:33,830 - root - INFO - Application startup completed
-2024-12-09 00:19:33,876 - root - INFO - Application startup completed
-2024-12-09 00:19:40,211 - root - INFO - Application shutdown completed
-2024-12-09 00:19:40,320 - root - INFO - Application shutdown completed
-2024-12-09 00:19:40,689 - root - INFO - Application shutdown completed
-2024-12-09 00:19:40,721 - root - INFO - Application shutdown completed
-2024-12-09 00:19:40,736 - root - INFO - Application shutdown completed
-2024-12-09 00:19:41,925 - root - INFO - Application startup completed
-2024-12-09 00:19:42,042 - root - INFO - Application startup completed
-2024-12-09 00:19:42,544 - root - INFO - Application startup completed
-2024-12-09 00:19:42,583 - root - INFO - Application startup completed
-2024-12-09 00:19:42,661 - root - INFO - Application startup completed
-2024-12-09 00:19:56,141 - root - INFO - Application shutdown completed
-2024-12-09 00:19:56,250 - root - INFO - Application shutdown completed
-2024-12-09 00:19:56,330 - root - INFO - Application shutdown completed
-2024-12-09 00:19:56,422 - root - INFO - Application shutdown completed
-2024-12-09 10:49:45,412 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:49:45,509 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:49:45,544 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:49:45,626 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:49:46,423 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:49:46,425 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:49:46,431 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:49:46,476 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:49:46,522 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:49:46,996 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:49:47,002 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:50:05,656 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:50:05,888 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:50:05,998 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:50:06,024 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:50:06,106 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:50:06,216 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:50:06,344 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:50:06,476 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:50:06,593 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:50:06,646 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:50:06,822 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 10:50:29,384 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
-You can install "python-multipart" with: 
-
-pip install python-multipart
-
-2024-12-09 11:13:20,622 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+2024-12-14 00:05:35,959 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
 Traceback (most recent call last):
   File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:13:20,726 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+2024-12-14 00:05:36,434 - root - INFO - Application startup completed
+2024-12-14 00:06:18,441 - repository - INFO - Found 0 tasks
+2024-12-14 00:06:32,971 - repository - INFO - Added task with id: 1
+2024-12-14 00:14:34,924 - root - INFO - Application shutdown completed
+2024-12-14 00:14:36,219 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
 Traceback (most recent call last):
   File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:13:20,737 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+2024-12-14 00:14:36,707 - root - INFO - Application startup completed
+2024-12-14 00:15:05,622 - repository - INFO - Added task with id: 1
+2024-12-14 00:31:09,277 - root - INFO - Application shutdown completed
+2024-12-14 00:31:10,956 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
 Traceback (most recent call last):
   File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:13:21,057 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+2024-12-14 00:31:11,433 - root - INFO - Application startup completed
+2024-12-14 00:31:29,683 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
 Traceback (most recent call last):
   File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:13:21,309 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+2024-12-14 00:31:30,163 - root - INFO - Application startup completed
+2024-12-14 00:31:42,540 - repository - INFO - Added task with id: 1
+2024-12-14 00:33:59,521 - root - INFO - Application shutdown completed
+2024-12-14 00:34:00,787 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
 Traceback (most recent call last):
   File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:13:21,310 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+2024-12-14 00:34:01,268 - root - INFO - Application startup completed
+2024-12-14 00:35:11,044 - root - INFO - Application shutdown completed
+2024-12-14 00:35:12,535 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
 Traceback (most recent call last):
   File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:13:21,357 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+2024-12-14 00:35:13,016 - root - INFO - Application startup completed
+2024-12-14 00:35:57,919 - root - INFO - Application shutdown completed
+2024-12-14 00:35:59,269 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
 Traceback (most recent call last):
   File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:13:21,364 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
+2024-12-14 00:35:59,749 - root - INFO - Application startup completed
+2024-12-14 00:36:52,542 - repository - INFO - Added task with id: 1
+2024-12-14 00:36:55,890 - repository - INFO - Added task with id: 2
+2024-12-14 00:36:58,290 - repository - INFO - Added task with id: 3
+2024-12-14 00:44:07,924 - root - INFO - Application shutdown completed
+2024-12-14 00:46:54,501 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
 Traceback (most recent call last):
   File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
     version = _bcrypt.__about__.__version__
               ^^^^^^^^^^^^^^^^^
 AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:13:21,471 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:13:21,484 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:13:21,496 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:13:21,574 - root - INFO - Application startup completed
-2024-12-09 11:13:21,675 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:13:21,681 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:13:21,837 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:13:21,893 - root - INFO - Application startup completed
-2024-12-09 11:13:22,065 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:13:22,149 - root - INFO - Application startup completed
-2024-12-09 11:13:22,551 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:13:22,695 - root - INFO - Application startup completed
-2024-12-09 11:15:16,655 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:15:17,213 - root - INFO - Application startup completed
-2024-12-09 11:22:36,354 - root - INFO - Application shutdown completed
-2024-12-09 11:26:36,410 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-09 11:26:36,982 - root - INFO - Application startup completed
-2024-12-09 11:33:48,031 - root - INFO - Application shutdown completed
-2024-12-10 12:02:23,217 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-10 12:02:23,686 - root - INFO - Application startup completed
-2024-12-10 12:45:56,036 - root - INFO - Application shutdown completed
-2024-12-10 12:49:24,022 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-10 12:49:24,502 - root - INFO - Application startup completed
-2024-12-10 12:53:46,212 - root - INFO - Application shutdown completed
-2024-12-10 12:53:47,508 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-10 12:53:47,977 - root - INFO - Application startup completed
-2024-12-10 12:55:15,175 - root - INFO - Application shutdown completed
-2024-12-10 12:56:27,089 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-10 12:56:27,602 - root - INFO - Application startup completed
-2024-12-10 12:57:44,843 - root - INFO - Application shutdown completed
-2024-12-10 12:57:46,045 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-10 12:57:46,519 - root - INFO - Application startup completed
-2024-12-10 13:07:07,537 - root - INFO - Application shutdown completed
-2024-12-10 13:07:08,766 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-10 13:07:09,241 - root - INFO - Application startup completed
-2024-12-10 13:08:30,876 - root - INFO - Application shutdown completed
-2024-12-10 13:11:13,660 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-10 13:11:14,128 - root - INFO - Application startup completed
-2024-12-10 13:13:20,861 - root - INFO - Application shutdown completed
-2024-12-10 13:13:22,055 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-10 13:13:22,520 - root - INFO - Application startup completed
-2024-12-10 13:13:40,524 - root - INFO - Application shutdown completed
-2024-12-10 13:13:41,666 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-10 13:13:42,135 - root - INFO - Application startup completed
-2024-12-10 13:15:45,889 - root - INFO - Application shutdown completed
-2024-12-10 13:15:47,097 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-10 13:15:47,564 - root - INFO - Application startup completed
-2024-12-10 14:07:35,416 - passlib.handlers.bcrypt - WARNING - (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Mentor\fast_crash\.venv\Lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-              ^^^^^^^^^^^^^^^^^
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2024-12-10 14:07:35,954 - root - INFO - Application startup completed
+2024-12-14 00:46:54,972 - root - INFO - Application startup completed
+2024-12-14 00:51:03,232 - root - INFO - Application shutdown completed
+2024-12-14 00:54:07,384 - my_app - INFO - Application startup completed
+2024-12-14 00:54:20,493 - my_app - INFO - Application startup completed
+2024-12-14 00:58:55,006 - my_app - INFO - Application shutdown completed
+2024-12-14 00:59:00,827 - my_app - INFO - Application startup completed
