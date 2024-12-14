@@ -16,4 +16,4 @@ class TaskOrm(Model):
     name: Mapped[str] = mapped_column(String(50))
     description: Mapped[Optional[str]] = mapped_column(String(500), nullable=True)
     status: Mapped[str] = mapped_column(String(20), default="pending")  # Добавлено поле status
-    due_date: Mapped[Optional[datetime]] = mapped_column(DateTime, nullable=True)  # Добавлено поле due_date
+    #due_date: Mapped[Optional[datetime]] = mapped_column(DateTime, nullable=True)  # Добавлено поле due_date
