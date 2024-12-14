@@ -26,5 +26,5 @@ class TaskRepository:
             task_models = result.scalars().all()
             task_shemas=[STask.model_validate(task_model) for task_model in task_models]
             logger.info("Found %d tasks", len(task_models))
-            return task_models
+            return task_shemas
             
