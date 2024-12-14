@@ -23,7 +23,7 @@ class STaskAdd(BaseModel):
     name: str = Field(..., min_length=3, max_length=50, description="Название задачи")
     description: Optional[str] = Field(None, max_length=500, description="Описание задачи")
     status: TaskStatus = Field(default=TaskStatus.PENDING)
-    due_date: Optional[datetime] = Field(None, description="Срок выполнения")
+    #due_date: Optional[datetime] = Field(None, description="Срок выполнения")
 
     @model_validator(mode='before')
     def validate_name(cls, values):
@@ -33,12 +33,12 @@ class STaskAdd(BaseModel):
         values['name'] = name.strip()
         return values
 
-    @model_validator(mode='before')
-    def parse_due_date(cls, values):
-        due_date = values.get('due_date')
-        if isinstance(due_date, str):  # Проверяем, является ли due_date строкой
-            values['due_date'] = parse_date(due_date)  # Используем функцию для парсинга
-        return values
+    # @model_validator(mode='before')
+    # def parse_due_date(cls, values):
+    #     due_date = values.get('due_date')
+    #     if isinstance(due_date, str):  # Проверяем, является ли due_date строкой
+    #         values['due_date'] = parse_date(due_date)  # Используем функцию для парсинга
+    #     return values
 
 class STask(STaskAdd):
     id: int

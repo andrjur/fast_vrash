@@ -94,3 +94,16 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 2024-12-14 22:00:48,598 - my_app - INFO - Added task with id: 3
 2024-12-14 22:00:50,211 - my_app - INFO - Received task data: name=˚Û‡Ô234, description=˚Ù‚‡, status=TaskStatus.PENDING, due_date=None
 2024-12-14 22:00:50,224 - my_app - INFO - Added task with id: 4
+2024-12-14 22:09:53,374 - my_app - INFO - Application shutdown completed
+2024-12-14 22:09:55,715 - my_app - INFO - Application startup completed
+2024-12-14 22:11:05,359 - my_app - INFO - Application shutdown completed
+2024-12-14 22:11:07,572 - my_app - INFO - Application startup completed
+2024-12-14 22:11:13,146 - my_app - INFO - Application shutdown completed
+2024-12-14 22:11:15,212 - my_app - INFO - Application startup completed
+2024-12-14 22:19:45,888 - my_app - INFO - Application shutdown completed
+2024-12-14 22:19:47,778 - my_app - INFO - Application startup completed
+2024-12-14 22:22:04,331 - my_app - INFO - Application shutdown completed
+2024-12-14 22:22:06,383 - my_app - INFO - Application startup completed
+2024-12-14 22:23:56,325 - my_app - INFO - Application shutdown completed
+2024-12-14 22:23:59,577 - my_app - INFO - Application startup completed
+2024-12-14 22:24:41,193 - my_app - INFO - Application shutdown completed

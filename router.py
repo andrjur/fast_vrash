@@ -18,7 +18,8 @@ async def add_task(
 ) -> STaskId:
     # Логируем полученные данные о задаче
     logger.info(
-        f"Received task data: name={task.name}, description={task.description}, status={task.status}, due_date={task.due_date}")
+#        f"Received task data: name={task.name}, description={task.description}, status={task.status}, due_date={task.due_date}")
+        f"Received task data: name={task.name}, description={task.description}, status={task.status}")
 
   #  try:  # отладочный трай чтобы не падало всё а в норм ответе возврящало в сваггер текст ошибки - убрать при релизе
     task_id = await TaskRepository.add_one(task)
