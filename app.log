@@ -72,3 +72,25 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 2024-12-14 00:54:20,493 - my_app - INFO - Application startup completed
 2024-12-14 00:58:55,006 - my_app - INFO - Application shutdown completed
 2024-12-14 00:59:00,827 - my_app - INFO - Application startup completed
+2024-12-14 01:00:22,813 - my_app - INFO - Application startup completed
+2024-12-14 21:36:15,814 - my_app - INFO - Application startup completed
+2024-12-14 21:38:29,726 - my_app - INFO - Received task data: name=к4еапукап, description=фыуацуа, status=TaskStatus.PENDING, due_date=None
+2024-12-14 21:38:29,745 - my_app - INFO - Added task with id: 1
+2024-12-14 21:38:41,713 - my_app - INFO - Received task data: name=к4еапукап2, description=фыуацуайцкйцуа, status=TaskStatus.PENDING, due_date=None
+2024-12-14 21:38:41,727 - my_app - INFO - Added task with id: 2
+2024-12-14 21:38:48,971 - my_app - INFO - Received task data: name=к4еапукап2цйуак, description=фыуацуайцкйцуа, status=TaskStatus.PENDING, due_date=None
+2024-12-14 21:38:48,987 - my_app - INFO - Added task with id: 3
+2024-12-14 21:39:14,879 - my_app - INFO - Received task data: name=попить кофе, description=срочно но неважно, status=TaskStatus.IN_PROGRESS, due_date=None
+2024-12-14 21:39:14,899 - my_app - INFO - Added task with id: 4
+2024-12-14 21:42:16,643 - my_app - INFO - Received task data: name=попить радколы, description=срочно но неважно, status=TaskStatus.IN_PROGRESS, due_date=None
+2024-12-14 21:42:16,656 - my_app - INFO - Added task with id: 5
+2024-12-14 21:59:48,580 - my_app - INFO - Application shutdown completed
+2024-12-14 21:59:50,432 - my_app - INFO - Application startup completed
+2024-12-14 22:00:42,402 - my_app - INFO - Received task data: name=ыуап, description=ыфва, status=TaskStatus.PENDING, due_date=None
+2024-12-14 22:00:42,411 - my_app - INFO - Added task with id: 1
+2024-12-14 22:00:46,255 - my_app - INFO - Received task data: name=ыуап2, description=ыфва, status=TaskStatus.PENDING, due_date=None
+2024-12-14 22:00:46,277 - my_app - INFO - Added task with id: 2
+2024-12-14 22:00:48,583 - my_app - INFO - Received task data: name=ыуап23, description=ыфва, status=TaskStatus.PENDING, due_date=None
+2024-12-14 22:00:48,598 - my_app - INFO - Added task with id: 3
+2024-12-14 22:00:50,211 - my_app - INFO - Received task data: name=ыуап234, description=ыфва, status=TaskStatus.PENDING, due_date=None
+2024-12-14 22:00:50,224 - my_app - INFO - Added task with id: 4

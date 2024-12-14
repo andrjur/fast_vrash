@@ -11,15 +11,13 @@ class TaskStatus(str, Enum):
 def parse_date(date_str: str) -> datetime:
     # Список форматов для попытки парсинга
     date_formats = ["%d.%m.%Y", "%Y-%m-%d", "%d/%m/%Y", "%m/%d/%Y"]
-    strip_str=date_str.strip()
+    strip_str = date_str.strip()
     for fmt in date_formats:
         try:
             return datetime.strptime(strip_str, fmt)
         except ValueError:
             continue
     raise ValueError("Invalid date format. Use DD.MM.YYYY or other supported formats.")
-
-
 
 class STaskAdd(BaseModel):
     name: str = Field(..., min_length=3, max_length=50, description="Название задачи")
