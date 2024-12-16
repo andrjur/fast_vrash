@@ -107,3 +107,6 @@ AttributeError: module 'bcrypt' has no attribute '__about__'
 2024-12-14 22:23:56,325 - my_app - INFO - Application shutdown completed
 2024-12-14 22:23:59,577 - my_app - INFO - Application startup completed
 2024-12-14 22:24:41,193 - my_app - INFO - Application shutdown completed
+2024-12-16 20:35:00,065 - my_app - INFO - Application startup completed
+2024-12-16 20:37:32,284 - my_app - INFO - Application shutdown completed
+2024-12-16 20:37:52,121 - my_app - INFO - Application startup completed

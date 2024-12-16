@@ -1,22 +1,33 @@
-from logging.config import fileConfig
-from sqlalchemy import engine_from_config
+from sqlalchemy.ext.asyncio import create_async_engine
+from sqlalchemy import pool
 from alembic import context
-from datab import Model
-from config import settings
+from logging.config import fileConfig
+from models import TaskOrm  # Импортируйте вашу базу или модели
 
 config = context.config
-fileConfig(config.config_file_name)
-target_metadata = Model.metadata
 
-def run_migrations_online():
-    configuration = config.get_section(config.config_ini_section)
-    configuration["sqlalchemy.url"] = settings.DATABASE_URL
-    connectable = engine_from_config(configuration)
+if config.config_file_name is not None:
+    fileConfig(config.config_file_name)
 
-    with connectable.connect() as connection:
-        context.configure(
-            connection=connection,
-            target_metadata=target_metadata
-        )
-        with context.begin_transaction():
-            context.run_migrations() 
+target_metadata = TaskOrm.metadata  # Убедитесь, что здесь указана ваша метадата
+
+async def run_migrations_online() -> None:
+    connectable = create_async_engine(
+        config.get_main_option("sqlalchemy.url"),
+        poolclass=pool.NullPool,
+    )
+
+    async with connectable.connect() as connection:
+        await connection.run_sync(context.configure, target_metadata=target_metadata)
+
+        async with connection.begin():
+            await context.run_migrations()
+
+def run_migrations() -> None:
+    if context.is_offline_mode():
+        run_migrations_offline()
+    else:
+        import asyncio
+        asyncio.run(run_migrations_online())
+
+run_migrations()

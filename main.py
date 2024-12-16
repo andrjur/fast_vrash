@@ -1,5 +1,9 @@
+import uvicorn
 from fastapi import FastAPI, Depends, HTTPException, status
 from contextlib import asynccontextmanager
+
+from starlette.responses import HTMLResponse
+
 from logger import setup_logger
 from config import settings
 from datab import create_tables, delete_tables, create_user
@@ -30,9 +34,19 @@ app = FastAPI(
 
 app.include_router(router)
 
-@app.get("/")
+@app.get("/", response_class=HTMLResponse)
 async def root():
-    return {"message": "Navigate to /docs for API documentation"}
+    return """
+    <html>
+        <head>
+            <title>FastAPI Documentation</title>
+        </head>
+        <body>
+            <h1>Welcome to FastAPI</h1>
+            <p>Navigate to <a href="/docs">/docs</a> for API documentation.</p>
+        </body>
+    </html>
+    """
 
 @app.post("/token", response_model=Token)
 async def login_for_access_token(form_data: Annotated[OAuth2PasswordRequestForm, Depends()]):
@@ -45,3 +59,6 @@ async def login_for_access_token(form_data: Annotated[OAuth2PasswordRequestForm,
         )
     access_token = create_access_token(data={"sub": user.username})
     return {"access_token": access_token, "token_type": "bearer"}
+
+if __name__ == '__main__':
+    uvicorn.run("main:app", reload=True)
